@@ -1,0 +1,428 @@
+html,body{
+    width:100%;
+    margin:0;
+    padding:0;
+    font-family: "Open Sans",sans-serif;
+    color: #2e2f29;
+    font-size: 15px;
+}
+
+section {
+	
+}
+
+.container-fluid {
+    padding: 60px 20px;
+}
+
+.row {
+    padding-top: 10px;
+}
+
+.tan {
+    background-color: #EAEAEA;
+}
+
+.gray {
+    background-color: #2e2f29;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Raleway",sans-serif;
+}
+
+h1 {
+    font-size: 63px;
+    font-weight: 800;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+h2 {
+    text-align: center;
+    color: #2581bd;
+    font-size: 54px;
+    font-weight: 300;
+}
+
+h3 {
+    color: #2581bd;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Home*/
+
+#home {  
+    background: no-repeat center fixed url("Images/abstract2.jpg");
+    /*background-image: url("Images/spidey-opt.jpg");*/
+/*    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    width:100%;
+    height:100vh;
+
+}
+
+#home span {
+    font-size: 23px;
+}
+
+#home hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:#dfdfde; 
+    width:100px;
+}
+
+#titleContainer {
+    color: #dfdfde;
+    text-align: center;
+    position: relative;
+    z-index:11;
+    top: 23%;
+}
+
+
+
+#titleOverlay {
+    background-color: #2581bd;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.30;
+    filter: alpha(opacity=30);
+    z-index: 2;
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite; 
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-10px);}
+    60% {transform: translateY(-5px);}
+}
+
+/* Navigation */
+#scrolldown {
+    height: 80px;
+    width:100%;
+    bottom:0;
+    position: absolute;
+    background-color: #272822;
+    z-index: 3;
+    text-align: center;
+    line-height: 80px;
+    font-size: xx-large;
+    color: #dfdfde;
+}
+
+#wrapper {
+    width: 100%;
+    height: 61px;
+    position: relative;
+}
+
+#navbar {
+    width:100%;
+    background-color: #272822;
+    border-top:solid 1px white;
+    z-index:99;
+}
+
+#navbarHeader {
+    width:100%;
+    height:60px;
+    line-height: 60px;
+    font-size: xx-large;
+    padding-right: 20px;
+    border-bottom:solid 1px white;
+    text-align: right;
+}
+
+#burger {
+    color: #2581bd;
+}
+
+#burger:hover {
+    color: #90908a ;
+}
+
+#navbarBody a {
+    width:100%;
+    height:60px;
+    display:block;
+    color: #dfdfde;
+    text-align: center;
+    line-height:60px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbarBody a:hover {
+    color: #90908a;
+}
+
+.hidden {
+    display:none;
+}
+
+.show {
+    display:block;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+/*Profile*/
+#profile {
+    text-align: center;
+}
+
+#avatar {
+    border:solid 5px;
+    border-color: #dfdfde;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.addpad {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Experience*/
+#experience p {
+    margin-bottom: 11px;
+}
+
+.cushion {
+   padding-top: 15px; 
+}
+
+.location {display:block; color:#2581bd; padding-top: 5px;}
+
+.description {display:block;}
+
+.description {
+    display: none;
+}
+
+/*Abilities*/
+#heading-work {
+    margin-top: 30px;
+}
+
+#abilities ul {
+    margin:0;
+    padding:0;
+}
+
+#abilities ul > li {
+	padding: 3px 0px;
+}
+
+#abilities ul > li .ability-score .fas {
+    -moz-transition: margin-left .3s;
+    -webkit-transition: margin-left .3s;
+    transition: margin-left .3s; 
+}
+
+#abilities ul > li:hover { 
+    background: #F2F2F2; 
+}
+
+#abilities ul > li:hover .ability-score .fas { 
+    margin-left: 2px; 
+}
+
+#heading-tools {
+	margin-top: 30px;
+}
+
+.ability-score {
+	float:right;
+}
+
+.checked {
+    color: #ffc900;
+}
+
+/*Projects*/
+.container {
+    position: relative;
+    width: 100%;
+    height:auto;
+    padding: 0;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.textoverlay {
+    padding: 0;
+    margin:0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #3a8dc3;
+    overflow: hidden;
+}
+
+.container:hover .textoverlay {
+    opacity: .9;
+    width: 100%;
+    left:0;
+}
+
+.text {
+    width:90%;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+#projects .col-lg-6 {
+    margin-bottom: 16px;
+}
+
+#projects span {
+    font-size: 13px;
+}
+
+.text hr {
+    margin-top: 13px;
+    margin-bottom: 15px;
+    height:2px;
+    border:none;
+    color:white;
+    background-color:white;  
+}
+
+/*Contact*/
+#contact *{
+    color:#dfdfde;
+}
+#contact ul {
+    margin-bottom: 0;
+}
+#contact li {
+    font-size: 19px;
+    padding-bottom: 7px;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+#contact ul > li:hover .social{
+color:#90908a;
+}
+
+#contact ul > li:hover a{
+    color:#90908a;
+}
+
+.social {
+    padding-right: 5px;
+}
+
+#contact hr {
+    background-color:#90908a;
+}
+
+/*Media Queries*/
+
+/* ipad */
+@media (min-width: 768px) {
+.container-fluid {
+    max-width: 1280px;
+    padding: 40px 180px;
+    width: 750px;
+}
+
+.description {
+    display: block;
+}
+
+#profile {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+#titleContainer {
+    top: 33%;
+}
+
+h1 {
+    font-size: 73px;
+}
+
+#home span {
+    font-size: 28px;
+}
+}
+
+/* ipad pro */
+@media (min-width: 992px) {
+.container-fluid {
+    width: 970px;
+    max-width: 1280px;
+    padding: 40px 180px;
+}
+}
+
+/* large screens */
+@media (min-width: 1200px) {
+.container-fluid {
+    max-width: 1280px;
+    padding: 40px 180px;
+    width: 1170px;
+}
+}
