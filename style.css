@@ -405,7 +405,7 @@ h1 {
 }
 	
 #home {
-    background: fixed;	
+    background-attachment: fixed;	
 }
 
 #home span {
