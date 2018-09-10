@@ -405,7 +405,7 @@ h1 {
 }
 	
 #home {
-    background-attachment: fixed;	
+    background: no-repeat center fixed url("Images/abstract2.jpg");	
 }
 
 #home span {
