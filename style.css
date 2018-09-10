@@ -68,7 +68,7 @@ hr {
 /*Home*/
 
 #home {  
-    background: no-repeat center fixed url("Images/abstract2.jpg");
+    background: no-repeat center url("Images/abstract2.jpg");
     /*background-image: url("Images/spidey-opt.jpg");*/
 /*    background-position: center;
     background-repeat: no-repeat;
@@ -402,6 +402,10 @@ h2 {
 
 h1 {
     font-size: 73px;
+}
+	
+#home {
+    background: fixed;	
 }
 
 #home span {
