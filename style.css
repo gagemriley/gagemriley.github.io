@@ -5,6 +5,7 @@ html,body{
     font-family: "Open Sans",sans-serif;
     color: #2e2f29;
     font-size: 15px;
+	position: relative;
 }
 
 section {
