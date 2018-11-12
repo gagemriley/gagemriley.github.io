@@ -18,19 +18,20 @@
 	<!-- Main stylesheet /-->
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 	<!-- Browser icon -->
-		<link rel="icon" href="Images/icon2.png" type="image" sizes="48x48">
+		<link rel="icon" href="images/logo.png" type="image" sizes="48x48">
 </head>
 <body>
 <section id="home">
-		<div id="titleContainer">
-			<h1>Gage Riley</h1>
-			<hr>
-			<span>Interactive Resume</span>
-		</div>
-		
-		<a id="scrolldown" href="#profile">
-			<i class="fas fa-angle-down bounce"></i>
-		</a>
+	<div id="particles-js"></div>
+	<div class="home-content">
+		<img src="images/logo.svg" alt="">
+		<h1>Gage Riley</h1>
+		<hr>
+		<span>Web Developer</span>
+		<a id="resume" href="docs/GageRiley-Resume.pdf" target="_blank">
+			<i class="fas fa-file-pdf"></i>Resume</a>
+		<i id="scrolldown" class="fas fa-chevron-down"></i>
+	</div>
 </section>
 <div id="wrapper">
 	<nav id="navbar">
@@ -61,7 +62,7 @@
 	    	</p>
 	    </div>
 	    <div class="col-lg-4 addpad">
-	    	<img src="Images/av.jpg" alt="Avatar" id="avatar">
+	    	<img src="images/av.jpg" alt="Avatar" id="avatar">
 	    </div>
 	     <div class="col-lg-4">
 	     	<h3>Details</h3>
@@ -101,6 +102,24 @@
 					<span class="location">
 						<span class="fas fa-map-marker-alt"></span>
 						Elyria, Ohio
+					</span>
+				</p>
+			</div>
+		</div>
+		<div class="row cushion">
+			<div class="col-lg-4">
+				<h4>Bowling Green State</h4>
+				<p>2010 - 2014</p>
+			</div>
+			<div class="col-lg-8">
+				<p>
+					<strong>Studied – Biology & Visual Communications Tech</strong>
+					<span class="description">
+						Courses included Biology and Concepts in Biology, Genetics, Calculus and Analytic Geometry, Statistics, Accounting and Business Concepts, Programming Fundamentals, and Economics
+					</span>
+					<span class="location">
+						<span class="fas fa-map-marker-alt"></span>
+						Bowling Green, Ohio
 					</span>
 				</p>
 			</div>
@@ -152,244 +171,138 @@
 	<div class="container-fluid">
 	  <h2>Abilities</h2>
 	  <hr>
-	  <h3>Skills</h3>
+	  <h3>Proficient With:</h3>
 	  <div class="row">
 	    <div class="col-lg-6">
 	    	<ul>
 	    		<li>
 	    			<span class="ability-title">HTML</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-time">+3 yrs</span>
 	    		</li>
 	    		<li>
 	    			<span class="ability-title">CSS</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-time">+3 yrs</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">Javascript</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">JavaScript</span>
+	    			<span class="ability-time">+2 yrs</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">JQuery</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">jQuery</span>
+	    			<span class="ability-time">+1 yrs</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">PHP</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">Bootstrap</span>
+	    			<span class="ability-time">+1 yrs</span>
+	    		</li>
+	    		<li>
+	    			<span class="ability-title">C#</span>
+	    			<span class="ability-time">+1 yrs</span>
+	    		</li>
+	    		<li>
+	    			<span class="ability-title">SQL</span>
+	    			<span class="ability-time">+1 yrs</span>
+	    		</li>
+	    		<li>
+	    			<span class="ability-title">Git</span>
+	    			<span class="ability-time">+1 yrs</span>
 	    		</li>
 	    	</ul>
 	    </div>
 	    <div class="col-lg-6">
 	    	<ul>
 	    		<li>
-	    			<span class="ability-title">ASP.NET</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">Command Line</span>
+	    			<span class="ability-time">+2 yrs</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">C#</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">MacOS</span>
+	    			<span class="ability-time">+10 yrs</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">SQL</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">Windows</span>
+	    			<span class="ability-time">+10 yrs</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">Scrum</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">MS Office</span>
+	    			<span class="ability-time">+10 yrs</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">Bootstrap</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">Creative Suite</span>
+	    			<span class="ability-time">+4 yrs</span>
+	    		</li>
+	    		<li>
+	    			<span class="ability-title">Sublime Text</span>
+	    			<span class="ability-time">+1 yrs</span>
+	    		</li>
+	    		<li>
+	    			<span class="ability-title">Visual Studio</span>
+	    			<span class="ability-time">+2 yrs</span>
+	    		</li>
+	    		<li>
+	    			<span class="ability-title">Chrome Dev Tools</span>
+	    			<span class="ability-time">+3 yrs</span>
 	    		</li>
 	    	</ul>
 	    </div>
 	  </div>
-	  <h3 id="heading-tools">Tools</h3>
+	  <h3 id="heading-tools">Worked With:</h3>
 	  <div class="row">
 	    <div class="col-lg-6">
 	    	<ul>
 	    		<li>
-	    			<span class="ability-title">Chrome Dev</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">SASS / SCSS</span>
+	    			<span class="ability-time">+2 mos</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">MS Office</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    			</span>
+	    			<span class="ability-title">PHP</span>
+	    			<span class="ability-time">+5 mos</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">Mac</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">MySQL</span>
+	    			<span class="ability-time">+1 mos</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">Notepad++</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">ASP.NET</span>
+	    			<span class="ability-time">+5 mos</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">Windows</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">BEM</span>
+	    			<span class="ability-time">+2 mos</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">Git</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">SCRUM</span>
+	    			<span class="ability-time">+5 mos</span>
 	    		</li>
 	    	</ul>
 	    </div>
 	    <div class="col-lg-6">
 	    	<ul>
 	    		<li>
-	    			<span class="ability-title">Sublime Text</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
+	    			<span class="ability-title">React</span>
+	    			<span class="ability-time">+1 mos</span>
+	    		</li>
+	    		<li>
+	    			<span class="ability-title">MongoDB</span>
+	    			<span class="ability-time">+1 mos</span>
 	    			</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">Adobe Creative Suite</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
+	    			<span class="ability-title">Express</span>
+	    			<span class="ability-time">+1 mos</span>
 	    			</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">MS Visual Studio</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">Node.js</span>
+	    			<span class="ability-time">+1 mos</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">Textwrangler</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">JSON</span>
+	    			<span class="ability-time">+1 mos</span>
 	    		</li>
 	    		<li>
-	    			<span class="ability-title">MS Project</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
-	    		</li>
-	    		<li>
-	    			<span class="ability-title">MS Visio</span>
-	    			<span class="ability-score">
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star checked"></span>
-	    				<span class="fas fa-star"></span>
-	    				<span class="fas fa-star"></span>
-	    			</span>
+	    			<span class="ability-title">APIs</span>
+	    			<span class="ability-time">+1 mos</span>
 	    		</li>
 	    	</ul>
 	    </div>
@@ -403,86 +316,146 @@
 	  <div class="row">
 	    <div class="col-lg-6">
 	    	<div class = "container">
-		    	<a href="https://github.com/gagemriley/BookmarkManager" target="_blank">
-					  <img src="Images/enrollment.jpg" alt="Avatar" class="image">
-					  <div class="textoverlay">
-					    <div class="text">
-					    	Create a bookmark manager for LCCC Services. 
-					    	<hr/>
-					    	<span>- HTML/CSS/JAVASCRIPT/JQUERY/ASP.NET/C#</span>
-						</div>
-					  </div>
-				</a>
+	    		<figure class="figure">
+				<div class="project">
+	    		  <img src="images/projects/moviedb-search.jpg" class="figure-img img-fluid rounded" alt="">
+	    		  <div class="project-icons">
+					<i class="fab fa-html5" data-toggle="tooltip" title="HTML"></i>
+					<i class="fab fa-css3-alt" data-toggle="tooltip" title="CSS3"></i>
+					<i class="fab fa-js-square" data-toggle="tooltip" title="JavaScript"></i>
+					<i class="fab fa-react" data-toggle="tooltip" title="React"></i>
+					<i class="fab fa-git" data-toggle="tooltip" title="Git"></i>
+	    		  </div>
+				</div>
+	    		  <figcaption class="figure-caption">
+	    		  	<div class="caption-header">
+	    			  	<span>MovieDB Search</span>
+	    			  	<a href="https://github.com/gagemriley/react-moviedb" target="_blank">Source</a>
+	    			  	<a href="https://react-moviedb--gmr.herokuapp.com/" target="_blank" class="a-cushion">Live</a>
+	    			</div>
+	    		  	<p>An application that allows users to search movies using the MovieDB API, created to better understand the React framework. </p>
+	    		  </figcaption>
+	    		</figure>
 			</div>
 	    </div>
 	    <div class="col-lg-6">
 			<div class = "container">
-		    	<a href="https://github.com/gagemriley/TuitionCalculator" target="_blank">
-					  <img src="Images/tuition.jpg" alt="Avatar" class="image">
-					  <div class="textoverlay">
-					    <div class="text">
-					    Create a calculator for LCCC tuition.
-					    <hr/>
-					    <span>- HTML/CSS/JAVASCRIPT/JQUERY/AJAX/PHP</span>
-						</div>
-					  </div>
-				</a>
+	    		<figure class="figure">
+				<div class="project">
+	    		  <img src="images/projects/item-list.jpg" class="figure-img img-fluid rounded" alt="">
+	    		  <div class="project-icons">
+					<i class="fab fa-html5" data-toggle="tooltip" title="HTML"></i>
+					<i class="fab fa-css3-alt" data-toggle="tooltip" title="CSS3"></i>
+					<i class="fab fa-sass" data-toggle="tooltip" title="SASS"></i>
+					<i class="fab fa-js-square" data-toggle="tooltip" title="JavaScript"></i>
+					<i class="fab fa-git" data-toggle="tooltip" title="Git"></i>
+	    		  </div>
+				</div>
+	    		  <figcaption class="figure-caption">
+	    		  	<div class="caption-header">
+	    			  	<span>Item List</span>
+	    			  	<a href="https://github.com/gagemriley/item-list" target="_blank">Source</a>
+	    			  	<a href="https://www.gagemriley.com/item-list/" target="_blank" class="a-cushion">Live</a>
+	    			</div>
+	    		  	<p>A responsive item list that allows users to add/delete items, created to better understand HTML, CSS, and JavaScript.</p>
+	    		  </figcaption>
+	    		</figure>
 			</div>
 	    </div>
 	    <div class="col-lg-6">
 			<div class = "container">
-		    	<a href="https://github.com/gagemriley/CurrencyConversion" target="_blank">
-					  <img src="Images/conversion.jpg" alt="Avatar" class="image">
-					  <div class="textoverlay">
-					    <div class="text">
-					    Create a USD currency converter.
-					    <hr/>
-					    <span>- HTML/CSS/JAVASCRIPT/JQUERY/PHP</span>
-						</div>
-					  </div>
-				</a>
+	    		<figure class="figure">
+				<div class="project">
+	    		  <img src="images/projects/memory-game.jpg" class="figure-img img-fluid rounded" alt="">
+	    		  <div class="project-icons">
+					<i class="fab fa-html5" data-toggle="tooltip" title="HTML"></i>
+					<i class="fab fa-css3-alt" data-toggle="tooltip" title="CSS3"></i>
+					<i class="fab fa-js-square" data-toggle="tooltip" title="JavaScript"></i>
+					<i class="fab fa-git" data-toggle="tooltip" title="Git"></i>
+	    		  </div>
+				</div>
+	    		  <figcaption class="figure-caption">
+	    		  	<div class="caption-header">
+	    			  	<span>Memory Game</span>
+	    			  	<a href="https://github.com/gagemriley/memory-game" target="_blank">Source</a>
+	    			  	<a href="https://www.gagemriley.com/memory-game/" target="_blank" class="a-cushion">Live</a>
+	    			</div>
+	    		  	<p>A responsive game that allows users to test their memory by matching cards, created to better understand HTML, CSS, and JavaScript.</p>
+	    		  </figcaption>
+	    		</figure>
 			</div>
 	    </div>
 	    <div class="col-lg-6">
 			<div class = "container">
-		    	<a href="https://github.com/gagemriley/ColorGenerator" target="_blank">
-					  <img src="Images/colors.jpg" alt="Avatar" class="image">
-					  <div class="textoverlay">
-					    <div class="text">
-					    Create a random hex color generator.
-					    <hr/>
-					    <span>- HTML/CSS/JAVASCRIPT</span>
-						</div>
-					  </div>
-				</a>
+	    		<figure class="figure">
+				<div class="project">
+	    		  <img src="images/projects/portfolio.jpg" class="figure-img img-fluid rounded" alt="">
+	    		  <div class="project-icons">
+					<i class="fab fa-html5" data-toggle="tooltip" title="HTML"></i>
+					<i class="fab fa-css3-alt" data-toggle="tooltip" title="CSS3"></i>
+					<!-- <i class="fab fa-sass" data-toggle="tooltip" title="SASS"></i> -->
+					<i class="fab fa-js-square" data-toggle="tooltip" title="JavaScript"></i>
+					<i class="fab fa-git" data-toggle="tooltip" title="Git"></i>
+	    		  </div>
+				</div>
+	    		  <figcaption class="figure-caption">
+	    		  	<div class="caption-header">
+	    			  	<span>Portfolio</span>
+	    			  	<a href="https://github.com/gagemriley/gagemriley.github.io" target="_blank">Source</a>
+	    			</div>
+	    		  	<p>A responsive portfolio created to demonstrate an understanding of fundamental web design and development skills. </p>
+	    		  </figcaption>
+	    		</figure>
 			</div>
 	    </div>
 	    <div class="col-lg-6">
 			<div class = "container">
-		    	<a href="https://github.com/gagemriley/SecondFinal" target="_blank">
-					  <img src="Images/brockhampton.jpg" alt="Avatar" class="image">
-					  <div class="textoverlay">
-					    <div class="text">
-					    Create a random website.
-					    <hr/>
-					    <span>- HTML/CSS/JAVASCRIPT</span>
-						</div>
-					  </div>
-				</a>
+	    		<figure class="figure">
+				<div class="project">
+
+	    		  	<img src="images/projects/bookmark-manager.jpg" class="figure-img img-fluid rounded" alt="">
+
+	    		  <div class="project-icons">
+					<i class="fab fa-html5" data-toggle="tooltip" title="HTML"></i>
+					<i class="fab fa-css3-alt" data-toggle="tooltip" title="CSS3"></i>
+					<i class="fab fa-js-square" data-toggle="tooltip" title="JavaScript"></i>
+					<i class="fab fa-git" data-toggle="tooltip" title="Git"></i>
+					<i class="fas fa-question-circle" data-toggle="tooltip" title="C#"></i>
+					<i class="fas fa-question-circle" data-toggle="tooltip" title="ASP.NET"></i>
+	    		  </div>
+				</div>
+	    		  <figcaption class="figure-caption">
+	    		  	<div class="caption-header">
+	    			  	<span>Bookmark Manager</span>
+	    			  	<a href="https://github.com/gagemriley/bookmark-manager" target="_blank">Source</a>
+	    			</div>
+	    		  	<p>An application that allows users to add/edit/delete bookmarks from their own personal page, created as a group project for school.</p>
+	    		  </figcaption>
+	    		</figure>
 			</div>
 	    </div>
 	    <div class="col-lg-6">
 			<div class = "container">
-		    	<a href="https://github.com/gagemriley/FirstFinal" target="_blank">
-					  <img src="Images/reallycoolgames.jpg" alt="Avatar" class="image">
-					  <div class="textoverlay">
-					    <div class="text">
-					    Create a random website.
-					    <hr/>
-					    <span>- HTML/CSS/JAVASCRIPT</span>
-						</div>
-					  </div>
-				</a>
+	    		<figure class="figure">
+				<div class="project">
+	    		  <img src="images/projects/tuition-calculator.jpg" class="figure-img img-fluid rounded" alt="">
+	    		  <div class="project-icons">
+					<i class="fab fa-html5" data-toggle="tooltip" title="HTML"></i>
+					<i class="fab fa-css3-alt" data-toggle="tooltip" title="CSS3"></i>
+					<i class="fab fa-js-square" data-toggle="tooltip" title="JavaScript"></i>
+					<i class="fab fa-php"  data-toggle="tooltip" title="PHP"></i>
+					<i class="fab fa-git" data-toggle="tooltip" title="Git"></i>
+	    		  </div>
+				</div>
+	    		  <figcaption class="figure-caption">
+	    		  	<div class="caption-header">
+	    			  	<span>Tuition Calculator</span>
+	    			  	<a href="https://github.com/gagemriley/tuition-calculator" target="_blank">Source</a>
+	    			  	<a href="https://tuition-calculator--gmr.herokuapp.com/" target="_blank" class="a-cushion">Live</a>
+	    			</div>
+	    		  	<p>A responsive tuition calculator for LCCC that determines cost based on semester credit hours taken and residency, created as a school project.</p>
+	    		  </figcaption>
+	    		</figure>
 			</div>
 	    </div>
 	  </div>
@@ -496,7 +469,7 @@
 	    <div class="col-lg-6">
 	    	<ul>
 	    		<li>
-	    			<a id="soc1" href="mailto:gagemriley@gmail.com" target="_blank">
+	    			<a id="soc1" href="mailto:gagemriley@gmail.com">
 						<span class="fas fa-envelope social"></span>
 						gagemriley@gmail.com
 					</a>
@@ -526,8 +499,11 @@
 	    	</ul>
 	    </div>
 	  </div>
-	</div>	
+	</div>
 </section>
-<script src="navigation.js"></script>
+<script src="scripts/navigation.js"></script>
+<script src="scripts/tooltips.js"></script>
+<script src="scripts/particles.js"></script>
+<script src="scripts/app.js"></script>
 </body>
 </html>
