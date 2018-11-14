@@ -318,11 +318,11 @@ h1 {
     z-index: 2;
     background: #007BFF;
     opacity: .3;
-    transition: all .3s ease-in;
+    transition: all .3s ease;
 }
 .project-icons i {
     padding: 0 7px 0 7px;
-    transition: all .5s ease;
+    transition: all .2s ease;
     cursor: help;
 }
 .project-icons i:hover {
