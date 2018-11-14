@@ -309,6 +309,7 @@ h1 {
     font-size: 22px;
     padding: 5px;
     z-index: 3;
+    border-top: solid #F2F2F2 2px;
 }
 .img-over {
     position: absolute;
