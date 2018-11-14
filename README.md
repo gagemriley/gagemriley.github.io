@@ -12,9 +12,9 @@ A responsive portfolio created to demonstrate an understanding of fundamental we
 
 :white_check_mark: Practice responsive design.
 
-:black_square_button: Practice BEM methodology.
+:black_square_button: Add BEM methodology.
 
-:black_square_button: Practice SASS / SCSS.
+:black_square_button: Add SASS / SCSS.
 
 ## Summary:
 This project was created to showcase my skills and background in an interactive resume. I recreated [Pascal van Gemert's](http://www.pascalvangemert.nl/) layout from scratch to practice HTML, CSS, and JavaScript.
