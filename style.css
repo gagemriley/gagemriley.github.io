@@ -165,7 +165,7 @@ h1 {
     width:100%;
     background-color: #262626;
     border-top:solid 1px #f9f9f9;
-    z-index:2;
+    z-index:4;
 }
 
 #navbarHeader {
@@ -308,6 +308,17 @@ h1 {
     color: #F2F2F2;
     font-size: 22px;
     padding: 5px;
+    z-index: 3;
+}
+.img-over {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: #007BFF;
+    opacity: .3;
+    transition: all .3s ease-in;
 }
 .project-icons i {
     padding: 0 7px 0 7px;
@@ -321,6 +332,9 @@ h1 {
     margin-bottom: 0;
     width: 100%;
     height: auto;
+}
+.project:hover .img-over {
+    opacity: 0;
 }
 .figure-caption {
     color: #616161;
