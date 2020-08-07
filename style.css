@@ -335,7 +335,8 @@ h1 {
     height: auto;
 }
 .project:hover .img-over {
-    opacity: .3;
+    opacity: 0;
+    /* opacity: .3; */
 }
 .figure-caption {
     color: #616161;
