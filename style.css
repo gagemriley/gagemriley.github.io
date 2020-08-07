@@ -318,7 +318,7 @@ h1 {
     height: 100%;
     z-index: 2;
     background: #007BFF;
-    opacity: .3;
+    opacity: 0;
     transition: all .3s ease;
 }
 .project-icons i {
@@ -335,7 +335,7 @@ h1 {
     height: auto;
 }
 .project:hover .img-over {
-    opacity: 0;
+    opacity: .3;
 }
 .figure-caption {
     color: #616161;
